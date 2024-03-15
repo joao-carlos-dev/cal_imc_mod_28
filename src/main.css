@@ -1,0 +1,84 @@
+main {
+    background-color: var(--corMain);
+    max-width: 40%;
+    padding: 24px 48px;
+}
+
+.altura {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body {
+    background-color: var(--corSecundaria);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    color: var(--corFonte);
+    font-weight: light;
+}
+
+input {
+    display: block;
+    border-color: var(--corPrincipal);
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    margin-top: 6px;
+    background-color: var(--corPrincipal);
+    color: var(--corFonte);
+    font-weight: bold;
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+#resultado {
+    height: 160px;
+    padding: 12px 22px;
+    font-size: 20px;
+}
+
+p {
+    color: var(--corFonte);
+    text-align: center;
+}
+
+table {
+    justify-content: center;
+}
+
+thead {
+    background-color: var(--corSecundaria);
+    color: var(--corPrincipal);
+}
+
+.imc {
+    padding: 6px;
+}
+
+.imc-linha-par {
+    padding: 6px;
+    text-align: center;
+}
+
+.imc-linha-impar {
+    background-color: var(--corSecundaria);
+    padding: 6px;
+    text-align: center;
+}
+
+
+.tabelaResultado {
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    line-height: 20px;
+    border-spacing: 15px;
+}
+
